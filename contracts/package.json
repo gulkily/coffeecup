@@ -6,7 +6,8 @@
   "scripts": {
     "build": "hardhat compile",
     "test": "hardhat test",
-    "deploy:coston": "hardhat run scripts/deploy.ts --network coston"
+    "deploy:coston": "hardhat run scripts/deploy.ts --network coston",
+    "seed": "hardhat run scripts/seed.ts --network coston"
   },
   "keywords": [],
   "author": "",
