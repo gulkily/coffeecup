@@ -2,6 +2,11 @@
 
 Flare Rewards Hub pairs XRPL wallet streaks with FTSO-priced bonuses so communities see instant, verifiable rewards.
 
+## Streak mechanic
+- Each participant links an XRPL wallet. A streak counts the number of consecutive 24-hour windows in which that wallet completes the required on-ledger engagement (e.g., funding a community pool or confirming a check-in transaction).
+- A backend claimer watches XRPL activity, hashes the wallet address, and calls the `RewardStreakManager` contract to record the day’s check-in. Staying within the daily window (24 hours + a two-hour grace period) keeps the streak alive.
+- Break the cadence and the streak resets to day one. Claims capture the FTSO price used so dashboards can show how longer streaks unlock higher bonuses.
+
 ## Run the project locally
 1. **Install prerequisites**
    - Node.js ≥ 20.19.0 (use `nvm install 20` or download from nodejs.org).
