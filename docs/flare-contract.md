@@ -12,7 +12,7 @@
 ## Implementation Steps
 1. Initialise Hardhat (`npm init -y`, `npm install --save-dev hardhat @flarenetwork/flare-periphery-contracts`).
 2. Run `npm run build` to compile and regenerate artifacts; use `npm test` to validate behaviour; deploy to Coston using funded account keys stored in `.env` (never commit secrets).
-3. Generate TypeChain bindings and publish them under `apps/web/src/contracts/` for runtime use when `VITE_DATA_MODE=live`.
+3. Generate TypeChain bindings and publish them under `apps/web/src/contracts/` for runtime use when `VITE_DATA_MODE=live`. After deployment, run `npm run seed` to simulate streak updates via Hardhat.
 4. Update backend adapters (`liveFtso`, `liveLedger`, `liveRewards`) to call the deployed contract and XRPL WebSocket client.
 
 ## Demo Evidence (README Requirement)

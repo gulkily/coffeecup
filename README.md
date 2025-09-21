@@ -10,11 +10,11 @@ Flare Rewards Hub pairs XRPL wallet streaks with FTSO-priced bonuses so communit
 ## Run the project locally
 1. **Install prerequisites**
    - Node.js ≥ 20.19.0 (use `nvm install 20` or download from nodejs.org).
-   - npm (bundled with Node 20) or pnpm if you prefer workspaces.
+   - pnpm ≥ 9 (`corepack enable` then `corepack prepare pnpm@latest --activate`).
 2. **Install dependencies**
    ```bash
    cd apps/web
-   npm install
+   pnpm install
    ```
 3. **Configure environment**
    ```bash
@@ -23,22 +23,28 @@ Flare Rewards Hub pairs XRPL wallet streaks with FTSO-priced bonuses so communit
    ```
 4. **Start the dev server**
    ```bash
-   npm run dev
+   pnpm dev
    ```
    Visit the printed URL (default `http://localhost:5173`) to explore the dashboard.
 5. **Build for production (optional)**
    ```bash
-   npm run build
+   pnpm build
    ```
    This ensures the TypeScript types and Vite bundler succeed before demos.
+6. **Quality gates**
+   ```bash
+   pnpm lint
+   pnpm test
+   ```
+   Run these before submitting updates to keep formatting and coverage aligned with hackathon guidelines.
 
-## Submission artefact checklist (placeholders)
+## Submission artefact checklist
 - **Demo video**: https://www.loom.com/share/e29d405c0f1f4c0e8189222e11b9e013?sid=2596150a-d7eb-4e09-93c4-ebe83f8d5189
-- **Screenshots**: See `Screenshot 2025-09-21 121926.png` in the repo root for the dashboard hero.
-- **Smart contract**: _Document deployment address and `RewardStreakManager.sol` summary._
-- **Technical guide**: _Link to docs/technical-description.md once finalized._
-- **Slide deck**: _Add Canva link after export._
-- **Issue tracking**: _Reference GitHub Issues or task board URL if available._
+- **Screenshots**: `Screenshot 2025-09-21 121926.png` (replace with latest hero, rewards grid, and ledger feed captures).
+- **Smart contract**: `docs/flare-contract.md` summarises the `RewardStreakManager.sol` deployment plan.
+- **Technical guide**: `docs/technical-description.md` documents stack decisions and integration points.
+- **Slide deck**: `docs/slide-deck.md` contains export-ready copy for Canva or Remark.
+- **Issue tracking**: `PLAN.md` lists sprint objectives and outstanding tasks.
 
 ## Repository map
 - `apps/web/` – React + Vite dashboard (mock/live data toggle).
@@ -47,12 +53,20 @@ Flare Rewards Hub pairs XRPL wallet streaks with FTSO-priced bonuses so communit
 - `AGENTS.md` – Contributor guidelines tailored to this codebase.
 - `PLAN.md` – 25-minute sprint agenda and deliverable status.
 
-Update each placeholder before submission so judges can verify live functionality and collateral.
+Keep these artefacts fresh before submission so judges can verify live functionality and collateral.
+
+## Documentation quick links
+- `docs/summary.md` – one-slide pitch for the hackathon booth.
+- `docs/full-description.md` – extended narrative for submission forms.
+- `docs/flare-contract.md` – deployment checklist for the Flare smart contract.
+- `docs/technical-description.md` – architecture and integration notes.
+- `docs/slides-outline.md` – talking points used to shape the final deck.
+- `docs/slide-deck.md` – ready-to-export slide copy.
 
 ## Smart contract workspace
-1. `cd contracts && npm install` – install Hardhat toolchain (Node >=20 recommended).
-2. `npm run build` – compile RewardStreakManager.sol and regenerate artifacts.
-3. `npm test` – run the Hardhat unit suite.
-4. Copy `.env.example` to `.env`, populate `COSTON_RPC_URL`, `COSTON_PRIVATE_KEY`, `COSTON_EXPLORER_KEY`, then run `npm run deploy:coston` once ready.
+1. `cd contracts && pnpm install` – install the Hardhat toolchain (Node ≥20 recommended).
+2. `pnpm build` – compile `RewardStreakManager.sol` and regenerate artifacts.
+3. `pnpm test` – run the Hardhat unit suite.
+4. Copy `.env.example` to `.env`, populate `COSTON_RPC_URL`, `COSTON_PRIVATE_KEY`, `COSTON_EXPLORER_KEY`, then run `pnpm deploy:coston` once ready.
 
 Artifacts (`artifacts/`, `typechain-types/`) power the frontend when `VITE_DATA_MODE=live`.
