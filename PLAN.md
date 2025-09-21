@@ -19,11 +19,11 @@
 - **Collateral**: README sections (Summary, Tech Stack, How Flare + XRPL integrate, Demo); slides (Problem, Solution, Architecture, Demo, Future Work).
 
 ## Deliverables Checklist
-- [ ] `apps/web` scaffolded with clean dashboard UI.
-- [ ] Mock service modules returning deterministic data.
-- [ ] Interactive claim button + visual states.
-- [ ] Updated README with demo assets linked.
-- [ ] Slide deck outline ready for Canva transfer.
+- [x] `apps/web` scaffolded with clean dashboard UI.
+- [x] Mock service modules returning deterministic data.
+- [x] Interactive claim button + visual states.
+- [x] Updated README with demo assets linked.
+- [x] Slide deck outline ready for Canva transfer.
 - [ ] Recorded demo walkthrough.
 
 ## Risks & Mitigations
