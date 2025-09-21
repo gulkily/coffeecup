@@ -1,0 +1,33 @@
+> **Judging** (don’t worry - it’s not scary at all! 😄)
+> 
+- **WHEN** | Demo day will be on Sunday (see schedule for precise timings).
+- **HOW** | Judging will be done in person on Sunday. If you entered the coding track, there are 2 phases of judging. First, you’ll show your project to the judges at their judging table (this is an informal opportunity for you to show your code to them). Second, **top projects will then be selected to present formally to everyone on stage!** If you entered the no-code track, your project submission will be reviewed by the judges separately before the top ones get selected to present on stage (there’s no need to show your project to the judges at their judging table)!
+- **PRESENTING (TECHNICAL TRACK)** | If you’re selected to present for the technical tracks, here’s how it will go:
+    - 20 seconds to connect your computer to the projector.
+    - 3 mins to present.
+    - 1 min for Q&A.
+
+If you go over time, points will be deducted from your team. Your time will start as soon as the last team has stopped presenting and has left the stage.
+
+- **PRESENTING (NON-TECHNICAL TRACK)** | If you’re presenting for the non-technical track, here’s how it will go:
+    - 2 mins to present (no Q&A)
+
+If you go over time, points will be deducted from your team.
+
+- **PRESENTING STRUCTURE** | Follow this structure when presenting:
+    1. First 30 seconds for each team member to introduce yourselves (which employer/university you’re from, which year, what you’re majoring in etc). **Make sure you have a team slide!**
+    2. Next 30 seconds to explain the problem you’re solving
+    3. Next 30 seconds to explain your solution and grand vision - show off how big this can get
+    4. Next 30 seconds showing off your demo - show off how much you achieved!
+    5. Next 30 seconds explaining how you used Flare in your project
+    6. Final 30 seconds on future roadmap and what you’ll do next
+- **Criteria** | Submissions will be judged by Flare / XRPL Commons / EasyA representatives based on their technical merits as well as the quality of presentation.
+
+**Submissions will be graded on a 1-10 scale in each of the following categories:**
+
+- Innovation and Originality: The novelty of the solution and its potential to disrupt or significantly improve upon existing services.
+- Usability and Design: The application's user experience and interface design, ensuring accessibility and ease of use for its intended audience.
+- Impact Potential: The applicability and scalability of the solution in real-world scenarios, including its potential for adoption and the breadth of its impact on the target market or sector.
+- Feasibility: The practicality of implementing the solution and the clarity of the implementation plan.
+- Use of the Blockchain: Effective use of Flare and XRPL technology, demonstrating an understanding of their benefits and limitations.
+- (For coding submissions) Technical Implementation: The robustness, security, and efficiency of the application’s codebase. Proper use of smart contracts and adherence to best practices in dApp development will be crucial. You must have built your own smart contract on Flare. Simply copy/pasting from another pre-existing project will not satisfy the criteria.
