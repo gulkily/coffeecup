@@ -1,7 +1,7 @@
 # Flare Smart Contract & Demo Checklist
 
 ## Custom Contract Plan
-- Location: `contracts/RewardStreakManager.sol` (Hardhat project).
+- Location: `contracts/contracts/RewardStreakManager.sol` (Hardhat project).
 - Responsibilities:
   - Track streak metadata per XRPL-linked wallet (wallet hash stored as bytes32).
   - Accept FTSO price submissions via `IPriceSubmitter` to lock the rate used for each claim.
@@ -11,7 +11,7 @@
 
 ## Implementation Steps
 1. Initialise Hardhat (`npm init -y`, `npm install --save-dev hardhat @flarenetwork/flare-periphery-contracts`).
-2. Scaffold contract + tests, compile, and deploy to Coston using funded account keys stored in `.env.local` (never commit secrets).
+2. Run `npm run build` to compile and regenerate artifacts; use `npm test` to validate behaviour; deploy to Coston using funded account keys stored in `.env` (never commit secrets).
 3. Generate TypeChain bindings and publish them under `apps/web/src/contracts/` for runtime use when `VITE_DATA_MODE=live`.
 4. Update backend adapters (`liveFtso`, `liveLedger`, `liveRewards`) to call the deployed contract and XRPL WebSocket client.
 

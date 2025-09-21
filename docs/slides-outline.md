@@ -11,8 +11,9 @@
    - Visual: Hero panel screenshot with streak badge + claim CTA.
 
 3. **Architecture**
-   - Columns: Client (React UI), XRPL settlement feed, Flare FTSO oracle + smart contract.
+   - Columns: Client (React UI), XRPL settlement feed, RewardStreakManager (Flare) smart contract, FTSO oracle snapshots.
    - Data toggle: `VITE_DATA_MODE` switches between mock demo data and live SDK calls.
+   - Call out deployment: RewardStreakManager on Coston testnet (address TBD).
    - Callout: `FTSO → multiplier`, `XRPL → instant payout`.
 
 4. **Demo Highlights**

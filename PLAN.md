@@ -24,6 +24,8 @@
 - [x] Interactive claim button + visual states.
 - [x] Updated README with demo assets linked.
 - [x] Slide deck outline ready for Canva transfer.
+- [x] Hardhat workspace with RewardStreakManager + tests.
+- [x] Frontend live adapters wired to contract/XRPL env toggle.
 - [ ] Recorded demo walkthrough.
 
 ## Risks & Mitigations

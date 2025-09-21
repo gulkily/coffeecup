@@ -33,7 +33,7 @@ Flare Rewards Hub pairs XRPL wallet streaks with FTSO-priced bonuses so communit
    This ensures the TypeScript types and Vite bundler succeed before demos.
 
 ## Submission artefact checklist (placeholders)
-- **Demo video**: _Add Loom/YouTube link showcasing live contract + XRPL payout._
+- **Demo video**: https://www.loom.com/share/e29d405c0f1f4c0e8189222e11b9e013?sid=2596150a-d7eb-4e09-93c4-ebe83f8d5189
 - **Screenshots**: _Insert hero, rewards grid, ledger feed captures here._
 - **Smart contract**: _Document deployment address and `RewardStreakManager.sol` summary._
 - **Technical guide**: _Link to docs/technical-description.md once finalized._
@@ -48,3 +48,11 @@ Flare Rewards Hub pairs XRPL wallet streaks with FTSO-priced bonuses so communit
 - `PLAN.md` – 25-minute sprint agenda and deliverable status.
 
 Update each placeholder before submission so judges can verify live functionality and collateral.
+
+## Smart contract workspace
+1. `cd contracts && npm install` – install Hardhat toolchain (Node >=20 recommended).
+2. `npm run build` – compile RewardStreakManager.sol and regenerate artifacts.
+3. `npm test` – run the Hardhat unit suite.
+4. Copy `.env.example` to `.env`, populate `COSTON_RPC_URL`, `COSTON_PRIVATE_KEY`, `COSTON_EXPLORER_KEY`, then run `npm run deploy:coston` once ready.
+
+Artifacts (`artifacts/`, `typechain-types/`) power the frontend when `VITE_DATA_MODE=live`.
