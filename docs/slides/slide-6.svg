@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120" />
+      <stop offset="100%" stop-color="#1d253f" />
+    </linearGradient>
+    <linearGradient id="accent6" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#22d3ee" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg6)" rx="24" />
+  <rect x="80" y="80" width="360" height="12" rx="6" fill="url(#accent6)" opacity="0.85" />
+  <text x="80" y="150" fill="#f8fafc" font-family="'Inter', 'Segoe UI', sans-serif" font-size="56" font-weight="700">Roadmap &amp; call to action</text>
+  <g transform="translate(120,230)">
+    <rect width="500" height="380" rx="28" fill="#12213a" stroke="#38bdf8" stroke-width="2" />
+    <text x="40" y="120" fill="#38bdf8" font-family="'Inter', 'Segoe UI', sans-serif" font-size="30" font-weight="600">Deploy Coston stack</text>
+    <text x="40" y="160" fill="#94a3b8" font-family="'Inter', 'Segoe UI', sans-serif" font-size="24">Launch RewardStreakManager on Flare Coston and wire adapters from the dashboard.</text>
+    <line x1="40" y1="200" x2="460" y2="200" stroke="#1e2a44" stroke-width="2" />
+    <text x="40" y="250" fill="#0ea5e9" font-family="'Inter', 'Segoe UI', sans-serif" font-size="30" font-weight="600">Bulletproof testing</text>
+    <text x="40" y="290" fill="#94a3b8" font-family="'Inter', 'Segoe UI', sans-serif" font-size="24">Expand Playwright flows and XRPL failure-mode cases for streak resets.</text>
+    <line x1="40" y1="330" x2="460" y2="330" stroke="#1e2a44" stroke-width="2" />
+    <text x="40" y="380" fill="#a855f7" font-family="'Inter', 'Segoe UI', sans-serif" font-size="30" font-weight="600">Community pilot</text>
+    <text x="40" y="420" fill="#94a3b8" font-family="'Inter', 'Segoe UI', sans-serif" font-size="24">Co-design reward tiers with a grassroots partner and capture feedback.</text>
+  </g>
+  <g transform="translate(760,240)">
+    <rect width="380" height="340" rx="28" fill="#1a2946" stroke="#a855f7" stroke-width="2" />
+    <text x="40" y="100" fill="#e2e8f0" font-family="'Inter', 'Segoe UI', sans-serif" font-size="40" font-weight="700">Ready to pilot?</text>
+    <text x="40" y="160" fill="#94a3b8" font-family="'Inter', 'Segoe UI', sans-serif" font-size="26">Book a session and bring verifiable rewards to your community.</text>
+    <rect x="40" y="210" width="300" height="80" rx="24" fill="url(#accent6)" />
+    <text x="190" y="260" fill="#0b1120" font-family="'Inter', 'Segoe UI', sans-serif" font-size="28" font-weight="700" text-anchor="middle">Schedule a pilot call</text>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120" />
+      <stop offset="100%" stop-color="#1a2333" />
+    </linearGradient>
+    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg2)" rx="24" />
+  <rect x="80" y="80" width="280" height="12" rx="6" fill="url(#accent2)" opacity="0.85" />
+  <text x="80" y="150" fill="#f8fafc" font-family="'Inter', 'Segoe UI', sans-serif" font-size="56" font-weight="700">Flare Rewards Hub</text>
+  <rect x="80" y="200" width="1120" height="440" rx="32" fill="#121c2f" stroke="#38bdf8" stroke-width="2" />
+  <g transform="translate(140,250)">
+    <rect width="300" height="300" rx="28" fill="rgba(56,189,248,0.12)" stroke="#38bdf8" stroke-width="2" />
+    <circle cx="150" cy="120" r="60" fill="#38bdf8" opacity="0.8" />
+    <path d="M120 120 L143 150 L180 90" stroke="#0b1120" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="40" y="220" fill="#e2e8f0" font-family="'Inter', 'Segoe UI', sans-serif" font-size="28" font-weight="600">XRPL wallet streaks</text>
+    <text x="40" y="255" fill="#94a3b8" font-family="'Inter', 'Segoe UI', sans-serif" font-size="24">Engagement anchored in daily check-ins.</text>
+  </g>
+  <g transform="translate(500,250)">
+    <rect width="300" height="300" rx="28" fill="rgba(168,85,247,0.12)" stroke="#a855f7" stroke-width="2" />
+    <circle cx="150" cy="120" r="60" fill="#a855f7" opacity="0.85" />
+    <path d="M150 80 V140" stroke="#fff" stroke-width="10" stroke-linecap="round" />
+    <path d="M120 110 H180" stroke="#fff" stroke-width="10" stroke-linecap="round" />
+    <text x="40" y="220" fill="#e2e8f0" font-family="'Inter', 'Segoe UI', sans-serif" font-size="28" font-weight="600">RewardStreakManager</text>
+    <text x="40" y="255" fill="#cbd5f5" font-family="'Inter', 'Segoe UI', sans-serif" font-size="24">Claims synced to on-chain hashes.</text>
+  </g>
+  <g transform="translate(860,250)">
+    <rect width="300" height="300" rx="28" fill="rgba(14,165,233,0.15)" stroke="#0ea5e9" stroke-width="2" />
+    <circle cx="150" cy="120" r="60" fill="#0ea5e9" opacity="0.9" />
+    <path d="M120 120 L150 90 L180 120 L150 150 Z" fill="#0b1120" opacity="0.85" />
+    <text x="46" y="220" fill="#e2e8f0" font-family="'Inter', 'Segoe UI', sans-serif" font-size="28" font-weight="600">FTSO pricing</text>
+    <text x="46" y="255" fill="#94a3b8" font-family="'Inter', 'Segoe UI', sans-serif" font-size="24">Bonuses track real-time consensus rates.</text>
+  </g>
+  <text x="80" y="680" fill="#94a3b8" font-family="'Inter', 'Segoe UI', sans-serif" font-size="24">Dashboard unites streak badges, payout claims, and live multipliers in one view.</text>
+</svg>

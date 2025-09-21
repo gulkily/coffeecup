@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120" />
+      <stop offset="100%" stop-color="#111c33" />
+    </linearGradient>
+    <linearGradient id="accent3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#22d3ee" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg3)" rx="24" />
+  <rect x="80" y="80" width="340" height="12" rx="6" fill="url(#accent3)" opacity="0.85" />
+  <text x="80" y="150" fill="#f8fafc" font-family="'Inter', 'Segoe UI', sans-serif" font-size="56" font-weight="700">Architecture at a glance</text>
+  <g transform="translate(120,230)">
+    <rect width="280" height="380" rx="28" fill="rgba(56,189,248,0.15)" stroke="#38bdf8" stroke-width="2" />
+    <text x="40" y="70" fill="#e2e8f0" font-family="'Inter', 'Segoe UI', sans-serif" font-size="30" font-weight="600">Client</text>
+    <text x="40" y="120" fill="#94a3b8" font-family="'Inter', 'Segoe UI', sans-serif" font-size="24">React + Vite</text>
+    <text x="40" y="160" fill="#94a3b8" font-family="'Inter', 'Segoe UI', sans-serif" font-size="24">`VITE_DATA_MODE` toggle</text>
+    <text x="40" y="200" fill="#94a3b8" font-family="'Inter', 'Segoe UI', sans-serif" font-size="24">Typed hooks &amp; UI layer</text>
+    <circle cx="140" cy="320" r="60" fill="#38bdf8" opacity="0.9" />
+    <path d="M110 320 L130 340 L170 300" stroke="#0b1120" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  <g transform="translate(500,230)">
+    <rect width="280" height="380" rx="28" fill="rgba(34,211,238,0.15)" stroke="#22d3ee" stroke-width="2" />
+    <text x="40" y="70" fill="#e2e8f0" font-family="'Inter', 'Segoe UI', sans-serif" font-size="30" font-weight="600">Services</text>
+    <text x="40" y="120" fill="#94a3b8" font-family="'Inter', 'Segoe UI', sans-serif" font-size="24">XRPL WebSocket listener</text>
+    <text x="40" y="160" fill="#94a3b8" font-family="'Inter', 'Segoe UI', sans-serif" font-size="24">Flare adapter → FTSO</text>
+    <text x="40" y="200" fill="#94a3b8" font-family="'Inter', 'Segoe UI', sans-serif" font-size="24">Shared typed config</text>
+    <circle cx="140" cy="320" r="60" fill="#22d3ee" opacity="0.9" />
+    <path d="M110 320 H170" stroke="#0b1120" stroke-width="12" stroke-linecap="round" />
+    <path d="M140 290 V350" stroke="#0b1120" stroke-width="12" stroke-linecap="round" />
+  </g>
+  <g transform="translate(880,230)">
+    <rect width="280" height="380" rx="28" fill="rgba(168,85,247,0.15)" stroke="#a855f7" stroke-width="2" />
+    <text x="40" y="70" fill="#e2e8f0" font-family="'Inter', 'Segoe UI', sans-serif" font-size="30" font-weight="600">Contracts</text>
+    <text x="40" y="120" fill="#94a3b8" font-family="'Inter', 'Segoe UI', sans-serif" font-size="24">RewardStreakManager</text>
+    <text x="40" y="160" fill="#94a3b8" font-family="'Inter', 'Segoe UI', sans-serif" font-size="24">Anonymised streak storage</text>
+    <text x="40" y="200" fill="#94a3b8" font-family="'Inter', 'Segoe UI', sans-serif" font-size="24">Claim events + analytics</text>
+    <text x="40" y="240" fill="#94a3b8" font-family="'Inter', 'Segoe UI', sans-serif" font-size="24">FTSO pricing snapshots</text>
+    <circle cx="140" cy="320" r="56" fill="#a855f7" opacity="0.85" />
+    <path d="M140 280 L170 320 L140 360 L110 320 Z" fill="#0b1120" opacity="0.85" />
+  </g>
+  <path d="M400 420 H500" stroke="url(#accent3)" stroke-width="8" stroke-linecap="round" stroke-dasharray="18 12" />
+  <path d="M780 420 H880" stroke="url(#accent3)" stroke-width="8" stroke-linecap="round" stroke-dasharray="18 12" />
+  <text x="414" y="395" fill="#e2e8f0" font-family="'Inter', 'Segoe UI', sans-serif" font-size="22">Ledger events</text>
+  <text x="800" y="395" fill="#e2e8f0" font-family="'Inter', 'Segoe UI', sans-serif" font-size="22">Claim writes</text>
+</svg>
