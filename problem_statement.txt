@@ -1,0 +1,6 @@
+Build lightweight, consumer-facing applications that combine Flare’s core protocols (FAssets, FDC, or FTSO) with XRPL’s native payments, settlement, or account features. The focus is on creativity, usability, and showing how Flare + XRPL can together power engaging everyday user experiences.
+
+Examples:
+- A social rewards app where community points are distributed via XRPL payments, and their value or ranking is tied to real-time FTSO price data.
+- A collectible system where badges/NFTs are minted on XRPL and evolve dynamically based on FDC-verified real-world events.
+- A simple game where in-game rewards are represented as FAssets, but payouts/settlements occur through XRPL accounts.
