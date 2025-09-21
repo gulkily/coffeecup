@@ -34,7 +34,7 @@ Flare Rewards Hub pairs XRPL wallet streaks with FTSO-priced bonuses so communit
 
 ## Submission artefact checklist (placeholders)
 - **Demo video**: https://www.loom.com/share/e29d405c0f1f4c0e8189222e11b9e013?sid=2596150a-d7eb-4e09-93c4-ebe83f8d5189
-- **Screenshots**: _Insert hero, rewards grid, ledger feed captures here._
+- **Screenshots**: See `Screenshot 2025-09-21 121926.png` in the repo root for the dashboard hero.
 - **Smart contract**: _Document deployment address and `RewardStreakManager.sol` summary._
 - **Technical guide**: _Link to docs/technical-description.md once finalized._
 - **Slide deck**: _Add Canva link after export._
